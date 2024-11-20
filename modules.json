@@ -5,6 +5,11 @@
         "https://github.com/nf-core/modules.git": {
             "modules": {
                 "nf-core": {
+                    "bowtie2/align": {
+                        "branch": "master",
+                        "git_sha": "666652151335353eef2fcd58880bcef5bc2928e1",
+                        "installed_by": ["modules"]
+                    },
                     "bwa/index": {
                         "branch": "master",
                         "git_sha": "666652151335353eef2fcd58880bcef5bc2928e1",
@@ -23,6 +28,26 @@
                     "fastqc": {
                         "branch": "master",
                         "git_sha": "21f230b8cca43755bf73470e6fd0290832a98aef",
+                        "installed_by": ["modules"]
+                    },
+                    "gatk4/calculatecontamination": {
+                        "branch": "master",
+                        "git_sha": "1999eff2c530b2b185a25cc42117a1686f09b685",
+                        "installed_by": ["modules"]
+                    },
+                    "gatk4/haplotypecaller": {
+                        "branch": "master",
+                        "git_sha": "1999eff2c530b2b185a25cc42117a1686f09b685",
+                        "installed_by": ["modules"]
+                    },
+                    "gatk4/mutect2": {
+                        "branch": "master",
+                        "git_sha": "1999eff2c530b2b185a25cc42117a1686f09b685",
+                        "installed_by": ["modules"]
+                    },
+                    "gatk4/variantfiltration": {
+                        "branch": "master",
+                        "git_sha": "1999eff2c530b2b185a25cc42117a1686f09b685",
                         "installed_by": ["modules"]
                     },
                     "trimgalore": {
